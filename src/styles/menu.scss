@@ -1,0 +1,11 @@
+.nav-link {
+  @apply p-4 text-green-500 bg-color-transition-1;
+}
+
+.nav-link:hover {
+  @apply text-green-800;
+}
+
+.router-link-active {
+  @apply text-white bg-green-500;
+}
